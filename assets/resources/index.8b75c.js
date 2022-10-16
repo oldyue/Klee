@@ -1,5 +1,5 @@
 var audio = new Audio();
-var AdNames = ["kun-video1","kun-video2","kun-video2"];
+var AdNames = ["klee-video1","klee-video2","klee-video2"];
 function winMusic(cc){
 	var src = "./music/jinjidekeli.mp3";
 	var playMusicWait;
@@ -25,7 +25,7 @@ function openAdVideo(x){
 	var AdName = AdNames[parseInt(Math.random()*AdNames.length,10)];
 //	var url = "./video/kun-video1.mp4";
 	layer.open({
-		btn:['点击查看更多IKUN视频',"关闭"],
+		btn:['点击查看更多可莉视频',"关闭"],
 		yes:function(index){
 			layer.close(index);
             window.location.href = 'https://space.bilibili.com/8034163'
@@ -7975,12 +7975,12 @@ window.__require = function t(e, o, n) {
             },
             online: {
                 evn: n.ENV.online,
-                host: "http://47.92.66.8:8090",
+                host: "http://47.92.66.8:9000",
                 reportPrefix: "sheep_"
             },
             onlineWx: {
                 evn: n.ENV.onlineWx,
-                host: "http://47.92.66.8:8090",
+                host: "http://47.92.66.8:9000",
                 reportPrefix: "sheep_wx_"
             },
             leiTing: {
@@ -7990,12 +7990,12 @@ window.__require = function t(e, o, n) {
             },
             onlineOppo: {
                 evn: n.ENV.onlineOppo,
-                host: "http://47.92.66.8:8090",
+                host: "http://47.92.66.8:9000",
                 reportPrefix: "sheep_oppo_"
             },
             onlineVivo: {
                 evn: n.ENV.onlineVivo,
-                host: "http://47.92.66.8:8090",
+                host: "http://47.92.66.8:9000",
                 reportPrefix: "sheep_vivo_"
             }
         };
