@@ -11231,9 +11231,9 @@ window.__require = function t(e, o, n) {
                 r.default.addbtnTouchStartScale(this.gameNext),
                 r.default.addbtnTouchEndScale(this.gameNext, this.gameNextFunc.bind(this)),
                 r.default.addbtnTouchCancelScale(this.gameNext),
-                cc.sys.isBrowser ? (this.gameWin.active = !0,
-                this.gameNext.active = !0) : (this.gameWin.active = !0,
-                this.gameNext.active = !0)
+                cc.sys.isBrowser ? (this.gameWin.active = !1,
+                this.gameNext.active = !1) : (this.gameWin.active = !1,
+                this.gameNext.active = !1)
             }
             ,
             e.prototype.onDisable = function() {
