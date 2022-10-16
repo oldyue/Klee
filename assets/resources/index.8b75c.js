@@ -1,5 +1,5 @@
 var audio = new Audio();
-var AdNames = ["klee-video1","klee-video2","klee-video2"];
+var AdNames = ["klee-video1","klee-video2"];
 function winMusic(cc){
 	var src = "./music/jinjidekeli.mp3";
 	var playMusicWait;
@@ -12751,7 +12751,7 @@ window.__require = function t(e, o, n) {
                     var i;
                     o = "rewardIcon/prop_life_remove.png",
                     a = "只因了，复活?",
-                    n = "复活并接上鸡脚",
+                    n = "复活并继续炸鱼",
 					z.default.playAudioMusic("audio/sound/transitFont.mp3", !1),
                     this.noBlockBtn.active = !0,
                     this.noWhiteBtn.active = !1,
